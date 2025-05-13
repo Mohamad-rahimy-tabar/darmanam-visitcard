@@ -7,12 +7,12 @@ function App() {
         <div className="w-full h-1/3 flex items-center justify-center">
           <img src="/src/assets/logo.png" className="h-full object-cover object-center" />
         </div>
-        <div className="bg-sky-400 w-full flex flex-col gap-8 items-center text-white rounded-lg p-4 ">
+        <div className="bg-sky-400 w-full flex flex-col gap-8 items-center text-white rounded-lg px-4 py-10 ">
           <div className="w-full text-center">
             <h1 className="font-bold text-xl md:text-2xl">خدمات درمانی و مراقبتی در منزل</h1>
           </div>
           {/*  */}
-          <div className="w-full text-[10px] h-fit text-gray-800 grid grid-cols-2 items-center justify-center md:grid-cols-3 gap-y-3">
+          <div className="w-full text-[10px] md:text-sm h-fit text-gray-800 grid grid-cols-2 items-center justify-center md:grid-cols-3 gap-y-3">
             <div className="w-full flex items-center justify-center">
               <span className="rounded-full px-2 py-1 bg-gray-100">
                 مراقبت از بیمار در منزل و بیمارستان
@@ -45,6 +45,10 @@ function App() {
             <a href="eita.com/darmanam_com" className="p-2 rounded-md bg-gray-100">
               <EitaSvg className="w-7 h-7 text-orange-500" />
             </a>
+          </div>
+          {/*  */}
+          <div>
+            <a target="_blank" href="www.darmanam.ir">www.darmanam.ir</a>
           </div>
         </div>
       </div>
