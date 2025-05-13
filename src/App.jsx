@@ -43,7 +43,7 @@ function App() {
             <a href="https://www.instagram.com/darmanam_com" className="p-2 rounded-md bg-gray-100">
               <RiInstagramLine className="w-7 h-7" />
             </a>
-            <a href="https://eita.com/darmanam_com" className="p-2 rounded-md bg-gray-100">
+            <a href="https://eitaa.com/darmanam_com" className="p-2 rounded-md bg-gray-100">
               <EitaSvg className="w-7 h-7 text-orange-500" />
             </a>
           </div>
