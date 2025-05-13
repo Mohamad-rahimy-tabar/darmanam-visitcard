@@ -1,11 +1,12 @@
 import { RiTelegram2Line, RiInstagramLine } from "react-icons/ri";
 import EitaSvg from "./ui/EitaSvg";
+import logo from "/images/logo.png";
 function App() {
   return (
     <section className="font-display container mx-auto max-w-2xl">
       <div className="w-full h-screen flex flex-col items-center gap-4">
         <div className="w-full h-1/3 flex items-center justify-center">
-          <img src="/src/assets/logo.png" className="h-full object-cover object-center" />
+          <img src={logo} className="h-full object-cover object-center" />
         </div>
         <div className="bg-sky-400 w-full flex flex-col gap-8 items-center text-white rounded-lg px-4 py-10 ">
           <div className="w-full text-center">
@@ -36,19 +37,21 @@ function App() {
           </div>
 
           <div className="w-full flex items-center justify-center gap-4 text-gray-800">
-            <a href="eita.com/darmanam_com" className="p-2 rounded-md bg-gray-100">
+            <a href="https://t.me/darmanam_com" className="p-2 rounded-md bg-gray-100">
               <RiTelegram2Line className="w-7 h-7" />
             </a>
-            <a href="eita.com/darmanam_com" className="p-2 rounded-md bg-gray-100">
+            <a href="https://www.instagram.com/darmanam_com" className="p-2 rounded-md bg-gray-100">
               <RiInstagramLine className="w-7 h-7" />
             </a>
-            <a href="eita.com/darmanam_com" className="p-2 rounded-md bg-gray-100">
+            <a href="https://eita.com/darmanam_com" className="p-2 rounded-md bg-gray-100">
               <EitaSvg className="w-7 h-7 text-orange-500" />
             </a>
           </div>
           {/*  */}
           <div>
-            <a target="_blank" href="www.darmanam.ir">www.darmanam.ir</a>
+            <a target="_blank" href="https://www.darmanam.ir">
+              www.darmanam.ir
+            </a>
           </div>
         </div>
       </div>
