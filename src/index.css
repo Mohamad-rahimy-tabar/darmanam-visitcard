@@ -39,4 +39,13 @@
 
 @theme {
   --font-display: "vazir";
+  --breakpoint-xs: 480px;
+}
+
+body {
+  height: 100dvh;
+}
+
+#root {
+  height: 100%;
 }
