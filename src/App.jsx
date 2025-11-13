@@ -14,7 +14,7 @@ function App() {
             <h1 className="font-bold text-xl md:text-2xl">خدمات درمانی و مراقبتی در منزل</h1>
           </div>
           {/*  */}
-          <div className="w-full text-[14px] text-gray-800 grid grid-cols-2  items-center justify-center gap-3">
+          <div className="w-full text-[10px] text-gray-800 grid grid-cols-2  items-center justify-center gap-3">
             <div className="w-full flex items-center justify-center">
               <span className="rounded-full flex items-center justify-center py-2 bg-gray-100 w-full">
                 مراقبت از بیمار در منزل و بیمارستان
