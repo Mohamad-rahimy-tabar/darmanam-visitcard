@@ -13,7 +13,6 @@ function App() {
           <div className="w-full text-center">
             <h1 className="font-bold text-xl md:text-2xl">خدمات درمانی و مراقبتی در منزل</h1>
           </div>
-          {/*  */}
           <div className="w-full text-[10px] text-gray-800 grid grid-cols-2  items-center justify-center gap-3">
             <div className="w-full flex items-center justify-center">
               <span className="rounded-full flex items-center justify-center py-2 bg-gray-100 w-full">
@@ -47,27 +46,33 @@ function App() {
             </div>
           </div>
 
-          <div className="w-full flex items-center justify-center gap-4 text-gray-800">
-            <a href="https://t.me/darmanam_com" className="p-2 rounded-md bg-gray-100">
-              <RiTelegram2Line className="w-7 h-7" />
-            </a>
-            <a href="https://www.instagram.com/darmanam__com" className="p-2 rounded-md bg-gray-100">
-              <RiInstagramLine className="w-7 h-7" />
-            </a>
-            <a href="https://eitaa.com/darmanam_com" className="p-2 rounded-md bg-gray-100">
-              <EitaSvg className="w-7 h-7" />
-            </a>
-          </div>
-          {/*  */}
-          <div className="flex flex-col gap-2 items-center">
-            <a target="_blank" href="https://darmanam.com/" className="flex items-center gap-2">
-              <TbWorldWww className="w-7 h-7" />
-              <span>www.darmanam.com</span>
-            </a>
-            <a href="tel:09999936508" className="flex items-center gap-2">
-              <RiPhoneFill className="w-7 h-7" />
-              <span>09999936508</span>
-            </a>
+          <div className="w-full flex flex-col items-center gap-4">
+            <h2>راه های ارتباطی با ما</h2>
+            <div className="w-full flex items-center justify-center gap-4 text-gray-800">
+              <a href="https://t.me/darmanam_com" className="p-2 rounded-md bg-gray-100">
+                <RiTelegram2Line className="w-7 h-7 text-sky-400" />
+              </a>
+              <a
+                href="https://www.instagram.com/darmanam__com"
+                className="p-2 rounded-md bg-gray-100"
+              >
+                <RiInstagramLine className="w-7 h-7 text-red-400" />
+              </a>
+              <a href="https://eitaa.com/darmanam_com" className="p-2 rounded-md bg-gray-100">
+                <EitaSvg className="w-7 h-7 text-orange-400" />
+              </a>
+            </div>
+
+            <div className="flex flex-col gap-2 items-center">
+              <a target="_blank" href="https://darmanam.com/" className="flex items-center gap-2">
+                <TbWorldWww className="w-7 h-7" />
+                <span>www.darmanam.com</span>
+              </a>
+              <a href="tel:09999936508" className="flex items-center gap-2">
+                <RiPhoneFill className="w-7 h-7" />
+                <span>09999936508</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
