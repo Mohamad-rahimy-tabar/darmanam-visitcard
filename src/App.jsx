@@ -6,7 +6,7 @@ function App() {
   return (
     <section className="font-display h-full container mx-auto max-w-screen-xs">
       <div className="w-full h-full flex flex-col items-center justify-between gap-4">
-        <div className="w-full h-1/3 flex items-center justify-center">
+        <div className="w-full h-1/3 flex items-center justify-center p-4">
           <img src={logo} className="h-full object-cover object-center" />
         </div>
         <div className="bg-sky-400 w-full flex h-fit flex-col gap-8 items-center text-white rounded-lg px-4 py-10 ">
